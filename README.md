@@ -24,8 +24,10 @@ FastAPI • Uvicorn • Tesseract OCR • Pytesseract • Pillow • PyMuPDF •
 1️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # Windows
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Install Tesseract OCR
 
 Download (Windows):
@@ -34,11 +36,9 @@ https://github.com/UB-Mannheim/tesseract/wiki
 Or install via:
 
 Mac
-
 brew install tesseract
 
 Linux
-
 sudo apt-get install tesseract-ocr
 4️⃣ Add Environment Variable
 
