@@ -40,12 +40,14 @@ brew install tesseract
 
 Linux
 sudo apt-get install tesseract-ocr
+
 4️⃣ Add Environment Variable
 
 Create .env file:
-
 GROQ_API_KEY=your_api_key_here
+
 5️⃣ Run App
+
 uvicorn app.main:app --reload
 
 Open:
