@@ -4,17 +4,17 @@ AI-powered web app that extracts structured data from CMS-1500 medical claim for
 
 Built with FastAPI + Tesseract OCR + PyMuPDF + Groq LLM.
 
-🚀 Features
+Features
 
-Upload CMS-1500 forms (PDF, JPG, PNG)
+1. Upload CMS-1500 forms (PDF, JPG, PNG)
 
-OCR text extraction using Tesseract
+2. OCR text extraction using Tesseract
 
-AI-based structured field extraction (Groq – LLaMA 3)
+3. AI-based structured field extraction (Groq – LLaMA 3)
 
-Pydantic validation
+4. Pydantic validation
 
-JSON output saved to outputs/
+5. JSON output saved to outputs/
 
 🏗️ Tech Stack
 
